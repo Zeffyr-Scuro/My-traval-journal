@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gainsboro;
+    margin: 0;
+}
+
+section {
+    display: flex;
+}
+
+.nav-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #F55A5A;
+    margin-bottom: 20px;
+    
+}
+
+img{
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 20px
+}
+
+.holiday-map-loca{
+    display: flex;
+    align-items: center; 
+    margin: 0px;
+}
+.holiday-loca{
+    margin-right: 20px;
+    font-size: 20px;
+    margin-bottom: 19px
+}
+
+.holiday-map{
+    color: #918E9B;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.holiday-title{
+    margin: 0
+}
